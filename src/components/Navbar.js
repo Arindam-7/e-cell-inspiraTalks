@@ -5,9 +5,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-light">
           <div className='container'>
-            <a className="navbar-brand" href="/"><img className="logo" src={mic} alt="logo" /><span className="logoFont">InspiraTalks</span></a>
+            <a className="navbar-brand" href="/"><img className="logo" src={mic} alt="logo" /><span className="logoFont">Inspira Talks</span></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <FontAwesomeIcon icon={faBars} style={{color: "blue"}}/>
             </button>

@@ -42,6 +42,7 @@
 
 body {
   font-family: 'Playfair Display', serif !important;
+  overflow-x: hidden;
 }
 
 /* Navbar */
@@ -88,4 +89,90 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   color: blue !important;
+}
+
+/* Header */
+
+.header-wrapper {
+  position: relative;
+  background: url(white.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  max-width: 100%;
+}
+
+.imageColumn {
+  height: 650px;
+  width: 800px;
+}
+  @media (max-width: 1350px) {
+    .imageColumn{
+    height: 500px;
+    width: 650px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column !important;
+  }
+  }
+
+
+.firstCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.firstCol h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: -2px;
+}
+
+.firstCol h2>span {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: -2px;
+}
+
+.firstCol p {
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.firstCol span {
+  font-weight: 400;
+  font-size: 17px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.secondCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstCol > h2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.firstCol > span {
+  display: inline-block;
+}
+
+.rowClass {
+  max-height: 85vh !important;
+  margin-top: 25px !important;
 }
