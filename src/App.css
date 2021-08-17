@@ -98,7 +98,7 @@ nav ul li {
   background: url(white.jpeg);
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 85vh;
   max-width: 100%;
 }
 
@@ -175,4 +175,88 @@ nav ul li {
 .rowClass {
   max-height: 85vh !important;
   margin-top: 25px !important;
+}
+
+/* Timeline */
+.timeline_heading {
+  text-align: center;
+  padding-top: 7.5px;
+}
+
+.timeline {
+  margin: 0 auto;
+  max-width: 750px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: #000000;
+}
+
+.timeline__component {
+  margin: 20px 20px 20px 20px;
+}
+
+.timeline__component--bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.timeline_image img{
+  padding: 0 10px;
+  height: 120px;
+  width: 160px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.timeline_image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LEAVE TILL LAST */
+.timeline__component--bottom {
+  margin-bottom: 0;
+}
+
+.timeline__middle {
+  position: relative;
+  background: blue;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: blue;
+  border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timeline__point--bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timeline__date--right {
+  text-align: right;
+}
+
+.timeline__title {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.timeline__paragraph {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 14px;
 }
