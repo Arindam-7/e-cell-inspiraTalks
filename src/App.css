@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  font-family: 'Playfair Display', serif !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white !important;
+}
+
+.navbar-brand {
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  max-width: 17rem;
+  height: 4.5rem;
+}
+
+.logo {
+  width: 4.5rem;
+  height: 4rem; 
+  margin: 5px;
+}
+
+.logoFont {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 1.7rem;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: blue;
+}
+
+nav a.nav-link {
+  font-weight: 700 !important;
+  cursor: pointer;
+  letter-spacing: 0.8px;
+  font-size: 19px;
+}
+
+nav ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-nav > li > a {
+  color: black !important;
+}
+
+.navbar-nav > li > a:hover {
+  color: blue !important;
 }
