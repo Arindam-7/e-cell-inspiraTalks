@@ -17,8 +17,7 @@ const Timeline = () => {
                 <img src={Aman} alt="Aman Dhattarwal"></img>
             </div>
             <h2 className="timeline__title">Aman Dhattarwal</h2>
-            <p className="timeline__paragraph">
-                Aman Dhattarwal is a popular youtuber.
+            <p className="timeline__paragraph1">
             </p>
         </div>
         <div className="timeline__component timeline__component--bg">
@@ -26,8 +25,7 @@ const Timeline = () => {
                 <img src={Aman} alt="Aman Dhattarwal"></img>
             </div>
             <h2 className="timeline__title">Aman Dhattarwal</h2>
-            <p className="timeline__paragraph">
-                Aman Dhattarwal is a popular youtuber.
+            <p className="timeline__paragraph2">
             </p>
         </div>
         <div className="timeline__middle">
@@ -47,8 +45,7 @@ const Timeline = () => {
                 <img src={Aman} alt="Aman Dhattarwal"></img>
             </div>
             <h2 className="timeline__title">Aman Dhattarwal</h2>
-            <p className="timeline__paragraph">
-                Aman Dhattarwal is a popular youtuber.
+            <p className="timeline__paragraph3">
             </p>
         </div>
         <div className="timeline__component timeline__component--bottom timeline__component--bg">
@@ -56,8 +53,7 @@ const Timeline = () => {
                 <img src={Aman} alt="Aman Dhattarwal"></img>
             </div>
             <h2 className="timeline__title">Aman Dhattarwal</h2>
-            <p className="timeline__paragraph">
-                Aman Dhattarwal is a popular youtuber.    
+            <p className="timeline__paragraph4">
             </p>
         </div>
         <div className="timeline__middle">
