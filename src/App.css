@@ -180,33 +180,33 @@ nav ul li {
 /* Timeline */
 .timeline_heading {
   text-align: center;
-  padding-top: 7.5px;
+  padding-top: 0.25em;
 }
 
 .timeline {
   margin: 0 auto;
   max-width: 750px;
   display: grid;
-  grid-template-columns: 1fr 3px 1fr;
+  grid-template-columns: auto 1vh auto;
   font-family: "Fira Sans", sans-serif;
   color: #000000;
 }
 
 .timeline__component {
-  margin: 20px 20px 20px 20px;
+  margin: 5% 5% 5% 5%;
 }
 
 .timeline__component--bg {
-  padding: 1.5em;
+  padding: 0.5em;
   background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
+  border-radius: 10%;
 }
 
 .timeline_image img{
-  padding: 0 10px;
-  height: 120px;
-  width: 160px;
+  padding: 0 10%;
+  height: 40% ;
+  width: 45% ;
   margin: 0;
   border-radius: 50%;
 }
@@ -232,8 +232,8 @@ nav ul li {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 15px;
-  height: 15px;
+  width: 0.65em;
+  height: 0.65em;
   background: blue;
   border-radius: 50%;
 }
@@ -262,7 +262,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .timeline__paragraph1:hover:before {
@@ -276,7 +276,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .timeline__paragraph2:hover:before {
@@ -290,7 +290,7 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .timeline__paragraph3:hover:before {
@@ -299,12 +299,12 @@ nav ul li {
 
 .timeline__paragraph4:before {
   content: 'Aman Dhattarwal is a popular youtuber';
-  line-height: 1.5;
+  line-height: 1.5em;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .timeline__paragraph4:hover:before {
