@@ -27,25 +27,34 @@ class App extends React.Component {
     Events.scrollEvent.remove('end');
   }
   scrollToTop() {
-    scroll.scrollToTop();
+    scroll.scrollToTop({
+      duration: 250,
+      delay: 0,
+      smooth: false
+    });
   }
   scrollToBottom() {
-    scroll.scrollToBottom();
+    scroll.scrollToBottom({
+      duration: 300, 
+      delay: 0,
+      smooth: false
+    });
   }
+
   scrollToTimeline() {
     scroller.scrollTo('time', {
-      duration: 1500,
-      delay: 100,
-      smooth: true,
-      offset: 50 // Scrolls to element + 50 pixels down the page
+      duration: 300,
+      delay: 10,
+      smooth: false,
+      offset: -70 // Scrolls to element + 50 pixels down the page
     })
   }
   scrollToGallery(){
     scroller.scrollTo('gallery', {
-      duration: 1500,
-      delay: 100,
-      smooth: true,
-      offset: 50 // Scrolls to element + 50 pixels down the page
+      duration: 300,
+      delay: 10,
+      smooth: false,
+      offset: -80 // Scrolls to element + 50 pixels down the page
     })
   }
   scrollMore() {
